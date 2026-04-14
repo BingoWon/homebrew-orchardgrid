@@ -9,4 +9,12 @@ cask "orchardgrid" do
   homepage "https://orchardgrid.com/"
 
   app "OrchardGrid.app"
+  binary "#{appdir}/OrchardGrid.app/Contents/Resources/og"
+
+  zap trash: [
+    "~/Library/Application Support/com.orchardgrid.app",
+    "~/Library/Containers/com.orchardgrid.app",
+    "~/Library/Group Containers/group.com.orchardgrid.shared",
+    "~/.config/orchardgrid",
+  ]
 end
