@@ -1,6 +1,6 @@
 cask "orchardgrid" do
-  version "1.17.7"
-  sha256 "76ac7be68fc5f99046ebedfa62513c7194d80c1eed98965113a7b7cc893881e5"
+  version "1.17.8"
+  sha256 "13f95dde3d9f3493910e092cac5ddab4dfe82b9cea56653db3394edf208486fe"
 
   url "https://github.com/BingoWon/orchardgrid-app/releases/download/v#{version}/OrchardGrid-v#{version}-macos.dmg",
       verified: "github.com/BingoWon/orchardgrid-app/"
