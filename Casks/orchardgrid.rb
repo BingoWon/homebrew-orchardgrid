@@ -12,9 +12,9 @@ cask "orchardgrid" do
   binary "#{appdir}/OrchardGrid.app/Contents/Resources/og"
 
   zap trash: [
+    "~/.config/orchardgrid",
     "~/Library/Application Support/com.orchardgrid.app",
     "~/Library/Containers/com.orchardgrid.app",
     "~/Library/Group Containers/group.com.orchardgrid.shared",
-    "~/.config/orchardgrid",
   ]
 end
